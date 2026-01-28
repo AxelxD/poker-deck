@@ -19,20 +19,3 @@ mvn -q clean package
 java -jar target/poker-deck-1.0.0.jar
 ```
 
-## Salida esperada
-Mensajes con el formato:
-`{Palo},{Color},{Valor}`
-y luego:
-`Quedan {n} cartas en deck`
-
-## Subir a GitHub (ejemplo)
-```bash
-git init
-git add .
-git commit -m "Initial commit: Poker Deck"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/poker-deck.git
-git push -u origin main
-```
-
-> En el reporte Word agrega la liga final del repositorio y tus capturas de pantalla.
